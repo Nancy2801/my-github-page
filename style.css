@@ -1,130 +1,54 @@
-selector { 
-
-    property: value; 
-
-} 
-selector { 
-
-    property: value; 
-
-} 
-
-header { 
-
-    background-color: #4CAF50; 
-
-    color: white; 
-
-    padding: 20px; 
-
-    text-align: center; 
-
-} 
-
- 
-
-header h1 { 
-
-    margin: 0; 
-
-} 
-
- 
-
-nav a { 
-
-    color: white; 
-
-    text-decoration: none; 
-
-    margin: 0 10px; 
-
-} 
-
- 
-
-nav a:hover { 
-
-    text-decoration: underline; 
-
-} 
-
-main { 
-
-    padding: 20px; 
-
-    max-width: 800px; 
-
-    margin: 0 auto; 
-
-} 
-
-main img { 
-
-    max-width: 100%; 
-
-    height: auto; 
-
-    display: block; 
-
-        margin: 20px 0; 
-
-} 
-
-footer { 
-
-    background-color: #333; 
-
-    color: white; 
-
-    text-align: center; 
-
-    padding: 10px; 
-
-    position: fixed; 
-
-    bottom: 0; 
-
-    width: 100%; 
-
-} 
-
-p { 
-
-    font-size: 1.1em; 
-
-} 
-
- 
-
-a { 
-
-    color: #4CAF50; 
-
-    text-decoration: none; 
-
-} 
-
- 
-
-a:hover { 
-
-    text-decoration: underline; 
-
-} 
-
-img { 
-
-    border: 5px solid #4CAF50; 
-
-    border-radius: 10px; 
-
-} 
-
-main a[href^="mailto:"] { 
-
-    color: #ff5722; 
-
-    font-weight: bold; 
-
-} 
+/* Reset default browser spacing */
+body{
+    margin: 0;
+    font-family: Times New Roman,
+Times, serif;
+    background-color: lightblue;
+}
+
+/* Header */
+header {
+    backgroung-color: #ADD8E6;
+    color:white;
+    padding: 20 px;
+    text-align: center;
+}
+
+/* Navigation */
+nav{
+    background-color: #34495e;
+    padding: 10 px;
+    text-align: center;
+}
+
+nav a: hover {
+              text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20 px;
+}
+
+/* Sections */
+section {
+    background-color: lightblur;
+    padding: 15 px;
+    margin-bottom: 20 px;
+    border-radius: 5 px;
+}
+
+/* Services */
+services {
+    border: 1 px solid #ccc;
+    padding: 10 px;
+    border-radius: 5 px;
+}
+
+/Footer/
+footer {
+    background-color: #lightblue;
+    color: white;
+    text-align: center;
+    padding: 10 px;
+}
