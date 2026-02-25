@@ -45,13 +45,24 @@ services {
     border-radius: 5 px;
 }
 
-/Footer/
 footer {
-    background-color: #;
-    text-align: center
-    padding: 20px
-    width: 100%
+
+background-color: ;
+
+color: white;
+
+text-align: center;
+
+padding: 10px;
+
+position: fixed;
+
+bottom: 0;
+
+width: 100%;
+
 }
+
 
 
 
