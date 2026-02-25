@@ -47,10 +47,11 @@ services {
 
 /Footer/
 footer {
-    background-color: #lightblue;
-    color: white;
-    text-align: center;
-    padding: 10 px;
+    background-color: #;
+    text-align: center
+    padding: 20px
+    width: 100%
 }
+
 
 
